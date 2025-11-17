@@ -1,0 +1,107 @@
+.excel-import-export {
+  padding: 20px;
+}
+
+.excel-import-export h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.excel-import-export .card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.excel-import-export .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.excel-import-export .card-header h5 {
+  margin: 0;
+  color: #495057;
+  font-weight: 600;
+}
+
+.stat-box {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.stat-box h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat-box p {
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+}
+
+.excel-import-export .btn {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.excel-import-export .btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.excel-import-export .form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.excel-import-export .table {
+  font-size: 0.9rem;
+}
+
+.excel-import-export .table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.excel-import-export ol,
+.excel-import-export ul {
+  padding-left: 20px;
+}
+
+.excel-import-export ol li,
+.excel-import-export ul li {
+  margin-bottom: 8px;
+}
+
+.excel-import-export .alert {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.excel-import-export .progress {
+  height: 25px;
+  border-radius: 8px;
+}
+
+.excel-import-export .progress-bar {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .excel-import-export {
+    padding: 10px;
+  }
+
+  .stat-box h3 {
+    font-size: 1.5rem;
+  }
+
+  .excel-import-export .col-md-3 {
+    margin-bottom: 10px;
+  }
+}
